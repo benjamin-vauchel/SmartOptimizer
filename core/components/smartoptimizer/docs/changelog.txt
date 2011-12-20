@@ -1,5 +1,5 @@
 Changelog for SmartOptimizer
 
-SmartOptimizer 1.0.0-beta1 (December 8, 2011)
+SmartOptimizer 1.0.0-beta1 (December 20, 2011)
 =============================================
 Initial Version
