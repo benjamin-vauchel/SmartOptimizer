@@ -12,7 +12,7 @@ To know more about SmartOptimizer : http://farhadi.ir/works/smartoptimizer
 
 Official Documentation: http://rtfm.modx.com/display/ADDON/SmartOptimizer
 Bugs and Feature Requests: https://github.com/omycode/smartoptimizer
-Questions: http://forums.modx.com/thread/71902/support-comments-for-smartoptimizer
+Questions: http://forums.modx.com/thread/72679/support-comments-for-smartoptimizer
 
 
 How to use SmartOptimizer ? 
