@@ -36,6 +36,9 @@ $_lang['smartoptimizer'] = 'SmartOptimizer';
 $_lang['setting_smartoptimizer.base_dir'] = 'Base path';
 $_lang['setting_smartoptimizer.base_dir_desc'] = 'Optional. An absolute path to the base directory. By default the modx base path is used. The base path is preprend to the URL of CSS or JS files to get the real path of that files. Example : If the URL to CSS is assets/css/screen.css and base path is /my/base/path/, the real path will be /my/base/path/assets/css/screen.css. There is no need to specify base path if you use modx base relative CSS and JS links.';
 
+$_lang['setting_smartoptimizer.base_url'] = 'Base URL';
+$_lang['setting_smartoptimizer.base_url_desc'] = 'Optional. An absolute URL to the base directory. By default the modx base URL is used. If you minify files, the base URL is preprend to the URL of CSS or JS files to get the real path of that files. Example : If the URL to CSS is assets/css/screen.css and base path is /my/base/path/, the real path will be /my/base/path/assets/css/screen.css. There is no need to specify base path if you use modx base relative CSS and JS links.';
+
 $_lang['setting_smartoptimizer.charset'] = 'Charset';
 $_lang['setting_smartoptimizer.charset_desc'] = 'Encoding of your JS and CSS files. (utf-8 or iso-8859-1)';
 

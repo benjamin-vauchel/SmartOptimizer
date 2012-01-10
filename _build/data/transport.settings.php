@@ -21,6 +21,14 @@ $settings['smartoptimizer.base_dir']->fromArray(array (
     'area' => 'smartoptimizer',
 ), '', true, true);
 
+$settings['smartoptimizer.base_url']= $modx->newObject('modSystemSetting');
+$settings['smartoptimizer.base_url']->fromArray(array (
+    'key' => 'smartoptimizer.base_url',
+    'value' => '',
+    'namespace' => 'smartoptimizer',
+    'area' => 'smartoptimizer',
+), '', true, true);
+
 $settings['smartoptimizer.charset']= $modx->newObject('modSystemSetting');
 $settings['smartoptimizer.charset']->fromArray(array (
     'key' => 'smartoptimizer.charset',
