@@ -1,5 +1,9 @@
 Changelog for SmartOptimizer
 
+SmartOptimizer 1.0.0-beta2 (January 10, 2012)
+=============================================
+Fix absolute URL conversion in CSS files
+
 SmartOptimizer 1.0.0-beta1 (December 20, 2011)
 =============================================
 Initial Version
