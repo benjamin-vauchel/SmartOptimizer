@@ -16,9 +16,8 @@
 
 function convertUrl($url, $count)
 {
-	global $settings, $mimeTypes, $fileDir;
+	global $settings, $mimeTypes, $fileDir, $settings;
 	
-	static $baseUrl = '';
 	
 	$url = trim($url);
 	
@@ -38,9 +37,9 @@ function convertUrl($url, $count)
 		$count > 1) {
 		if (strpos($_SERVER['REQUEST_URI'], $_SERVER['SCRIPT_NAME'].'?') === 0 ||
 			strpos($_SERVER['REQUEST_URI'], rtrim(dirname($_SERVER['SCRIPT_NAME']), '\/').'/?') === 0) {
-			if (!$baseUrl) return $fileDir . $url;
+			if (!$settings['baseUrl']) return $fileDir . $url;
 		}
-		return $baseUrl . $url;
+		return str_replace($settings['baseDir'], $settings['baseUrl'], realpath($fileDir . $url));
 	}
 	
 	$contents = file_get_contents($fileDir.$url);
@@ -48,7 +47,7 @@ function convertUrl($url, $count)
 	if ($fileType == 'css') {
 		$oldFileDir = $fileDir;
 		$fileDir = rtrim(dirname($fileDir.$url), '\/').'/';
-		$oldBaseUrl = $baseUrl;
+		$oldBaseUrl = $settings['baseUrl'];
 		$baseUrl = 'http'.(@$_SERVER['HTTPS']?'s':'').'://'.$_SERVER['HTTP_HOST'].rtrim(dirname($_SERVER['SCRIPT_NAME']), '\/').'/'.$fileDir;
 		$contents = minify_css($contents);		
 		$fileDir = $oldFileDir;
