@@ -1,8 +1,13 @@
 Changelog for SmartOptimizer
 
+SmartOptimizer 1.0.0-beta3 (January 19, 2012)
+=============================================
+Fix cacheDir instanciation
+
 SmartOptimizer 1.0.0-beta2 (January 10, 2012)
 =============================================
 Fix absolute URL conversion in CSS files
+Fix the settings instanciation
 
 SmartOptimizer 1.0.0-beta1 (December 20, 2011)
 =============================================

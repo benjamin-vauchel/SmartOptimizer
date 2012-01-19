@@ -32,7 +32,7 @@
 define('PKG_NAME','SmartOptimizer');
 define('PKG_NAME_LOWER','smartoptimizer');
 define('PKG_VERSION','1.0.0');
-define('PKG_RELEASE','beta2');
+define('PKG_RELEASE','beta3');
 define('PKG_CATEGORY','SmartOptimizer');
 
 /******************************************

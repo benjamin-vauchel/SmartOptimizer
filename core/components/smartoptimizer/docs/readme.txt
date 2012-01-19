@@ -1,9 +1,9 @@
 --------------------
 SmartOptimizer
 --------------------
-Version: 1.0.0-beta2
-Released: December 20, 2011
-Since: January 10, 2011
+Version: 1.0.0-beta3
+Released: January 19, 2012
+Since: December 20, 2011
 Author: Benjamin Vauchel <contact@omycode.fr>
 
 This extra is a MODx version of SmartOptimizer by Ali Farhadi. 
