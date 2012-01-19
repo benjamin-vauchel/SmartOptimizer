@@ -38,7 +38,7 @@
 switch ($modx->event->name) 
 {
     case 'OnSiteRefresh':
-        $cachePath = $modx->getOption('smartoptimizer.cache_path', null, $modx->getOption('assets_path').'components/smartoptimizer/cache');
+        $cachePath = $modx->getOption('smartoptimizer.cache_dir', null, $modx->getOption('assets_path').'components/smartoptimizer/cache');
 
         /* clear local cache */
         if (!empty($cachePath)) {

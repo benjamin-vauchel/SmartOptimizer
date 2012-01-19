@@ -60,7 +60,7 @@ $settings = array(
 	'embedExceptions' 	=> ($embedExceptions = $modx->getOption('smartoptimizer.embed_exceptions')) && !empty($embedExceptions) ? explode(',', $modx->getOption('smartoptimizer.embed_exceptions')) : array('htc'),
 	'serverCache' 		=> (boolean) $modx->getOption('smartoptimizer.server_cache', null, true),
 	'serverCacheCheck' 	=> (boolean) $modx->getOption('smartoptimizer.server_cache_check', null, false),
-	'cacheDir' 			=> ($cachePath = $modx->getOption('smartoptimizer.cache_path')) && is_dir($cachePath) ? $cachePath : $modx->getOption('assets_path').'components/smartoptimizer/cache/',
+	'cacheDir' 			=> ($cachePath = $modx->getOption('smartoptimizer.cache_dir')) && is_dir($cachePath) ? $cachePath : $modx->getOption('assets_path').'components/smartoptimizer/cache/',
 	'cachePrefix' 		=> (boolean) $modx->getOption('smartoptimizer.cache_prefix', null, 'so_'),
 	'clientCache' 		=> (boolean) $modx->getOption('smartoptimizer.client_cache', null, true),
 	'clientCacheCheck' 	=> (boolean) $modx->getOption('smartoptimizer.client_cache_check', null, false),
