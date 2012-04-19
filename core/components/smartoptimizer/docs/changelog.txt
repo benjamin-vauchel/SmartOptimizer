@@ -1,5 +1,9 @@
 Changelog for SmartOptimizer
 
+SmartOptimizer 1.0.0-pl (April 19, 2012)
+=============================================
+Fix filesmtime issue
+
 SmartOptimizer 1.0.0-beta3 (January 19, 2012)
 =============================================
 Fix cacheDir instanciation

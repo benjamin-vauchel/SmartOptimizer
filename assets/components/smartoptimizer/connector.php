@@ -121,7 +121,7 @@ function filesmtime() {
 	global $files, $fileType;
 	static $filesmtime;
 	if ($filesmtime) return $filesmtime;
-	$filesmtime = max(@filemtime("minifiers/$fileType.php"), filemtime('index.php'), filemtime('config.php'));
+	$filesmtime = @filemtime("minifiers/$fileType.php");
 	foreach ($files as $file) {
 		if (!file_exists($file)) debugExit("File not found ($file).");
 		$filesmtime = max(filemtime($file), $filesmtime);
