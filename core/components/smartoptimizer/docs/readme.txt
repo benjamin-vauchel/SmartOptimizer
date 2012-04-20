@@ -1,8 +1,8 @@
 --------------------
 SmartOptimizer
 --------------------
-Version: 1.0.0-beta3
-Released: January 19, 2012
+Version: 1.0.0-pl
+Released: April 19, 2012
 Since: December 20, 2011
 Author: Benjamin Vauchel <contact@omycode.fr>
 

@@ -5,8 +5,8 @@
  * Copyright 2011 Benjamin Vauchel <contact@omycode.fr>
  *
  * @author Benjamin Vauchel <contact@omycode.fr>
- * @version Version 1.0.0 Beta-1
- * 12/8/11
+ * @version Version 1.0.0 pl
+ * 20/4/12
  *
  * SmartOptimizer is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free

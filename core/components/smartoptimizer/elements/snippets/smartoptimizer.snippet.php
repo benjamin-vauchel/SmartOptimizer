@@ -19,14 +19,14 @@
  * @package SmartOptimizer
  * @author Benjamin Vauchel <contact@omycode.fr>
  *
- * @version Version 1.0.0-beta1
- * 12/8/11
+ * @version Version 1.0.0-pl
+ * 20/4/12
  *
  * This snippet return the URL to the SmartOptimizer connector for CSS or JS files
  *
 
 /**
-  @version Version 1.0.0-beta1
+  @version Version 1.0.0-pl
 
  /** Example properties
  * &package SmartOptimizer
